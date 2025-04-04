@@ -1,0 +1,60 @@
+    .highlight {background-color: #d7ecfc; color: #333;
+    padding: 10px;  border: 1px solid #ccc; border-radius: 5px;  margin-bottom: 10px; }
+	
+	.highlight-green { background-color: #e8f5e9; color: #155724; 
+    padding: 10px;border: 1px solid #c3e6cb; border-radius: 5px;margin-bottom: 10px;}
+	
+	.highlight-yellow {background-color: #fffff0; color: #333; 
+    padding: 10px; border: 1px solid #ccc; border-radius: 5px;   margin-bottom: 10px;}
+	
+	.highlight-grey {background-color: #f0f0+
+	f0; color: #333; 
+    padding: 10px; border: 1px solid #ccc; border-radius: 5px;   margin-bottom: 10px}
+	
+	#highlight-unique {background-color: #f3e5f5; color: #4a148c; 
+    padding: 15px; border: 1px solid #ce93d8; border-radius: 5px; margin-bottom: 20px;}
+	/*ID Attribut wird verwendet um ein einzigartiges und spezifisches gestyltes Element zu erschaffen
+	Quelle: https://www.w3schools.com/html/html_id.asp */
+	
+	h1 {font-family: 'Courier New', monospace;}
+
+	h1, h2, h3, h4, h5, h6 {color: #4caf50; font-family: Arial, sans-serif; 
+	font-weight: bold; margin-bottom: 10px;}
+	/*Gibt für die Tags h1-h6 sowas wie Color, Schriftart und Größe an */
+	
+	ol {list-style-type: upper-roman;}
+	/*<ol> wird mit römischen Aufzählungszeichen bearbeitet */
+	
+	.haken::before {content: '✔️'; margin-right: 10px; color: green;}
+	/*Quelle: https://www.mediaevent.de/css/generated.html */
+	
+	h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;  margin: 10px;}
+	/*Für Tags h1-h6: Abstand vom Bildschirm */
+	
+	/*Ab hier wird die Tabelle gestylt */
+	table {width: 100%; border-collapse: collapse;
+    margin: 20px 0; font-size: 16px; text-align: left;}
+	
+	table th, table td {border: 1px solid #dddddd; padding: 8px;}
+  
+	table th {background-color: #f2f2f2;}
+	
+	table tr:nth-child(even) {background-color: #f9f9f9;}
+	
+	body {font-family: Arial, sans-serif;
+    margin: 0; padding: 0; background-color: #f4f4f4;}/*Legt die Hauptschriftart und die Alternativschrift fest*/
+	
+	/*Ab jetzt wird die Navigationsleiste gestylt wie Farbe und das wenn man mit der Maus
+	drüberfährt die Schrift auf der man ist, leicht markiert wird */
+    .navigation {background-color: #333; text-align: center;
+    margin: 0; padding: 10px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+
+    .navigation a {text-decoration: none;
+    color: #fff; padding: 10px 20px; margin: 0 15px; font-size: 16px;
+    font-weight: bold; border-radius: 5px; transition: background-color 0.3s ease;}
+
+    .navigation a:hover {background-color: #575757;}
+
+    .navigation th {background-color: transparent; padding: 0;}
+
+
